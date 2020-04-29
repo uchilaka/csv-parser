@@ -1,0 +1,26 @@
+{
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // Notes on configuring eslint: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+    "source.fixAll.eslint": true,
+  },
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "javascriptreact"
+  ],
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.run": "onType",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "markdownlint.run": "onSave",
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+}
